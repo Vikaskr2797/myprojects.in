@@ -119,17 +119,17 @@ include 'constants/check-login.php';
                     <div class="nav-mini-wrapper">
                         <ul class="nav-mini sign-in">
                             <?php
-						if ($user_online == true) {
-						print '
-						    <li><a href="logout.php">logout</a></li>
-							<li><a href="'.$myrole.'">Profile</a></li>';
-						}else{
-						print '
-							<li><a href="login.php">login</a></li>
-							<li><a data-toggle="modal" href="#registerModal">register</a></li>';						
-						}
-						
-						?>
+    if ($user_online == true) {
+    print '
+        <li><a href="logout.php">logout</a></li>
+        <li><a href="'.$myrole.'">Profile</a></li>';
+    }else{
+    print '
+        <li><a href="login.php">login</a></li>
+        <li><a data-toggle="modal" href="#registerModal">register</a></li>';						
+    }
+    
+    ?>
 
                         </ul>
                     </div>
@@ -173,6 +173,7 @@ include 'constants/check-login.php';
                 </div>
 
             </div>
+
 
 
         </header>
@@ -374,23 +375,27 @@ include 'constants/check-login.php';
                 text-align: left;
                 border-radius: 5px;
                 background-color: #f2f2f2;
-                box-shadow: 0px 0px 40px 0px #6e6969d1;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
                 padding: 25px 0;
-
-                p {
-                    margin-bottom: 0;
-                }
+                height: 370px;
+                margin-bottom: 30px;
 
                 h4 {
-                    padding-bottom: 15px;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+
+                    h4 {
+                        padding-bottom: 15px;
+                    }
+
+                    @media(max-width:960px) {
+                        margin-bottom: 30px;
+                    }
                 }
 
-                @media(max-width:960px) {
-                    margin-bottom: 30px;
-                }
-            }
-
-            //--------- End features Area -------------//
+                //--------- End features Area -------------//
             </style>
 
             <!-- Start features Area -->
