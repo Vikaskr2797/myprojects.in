@@ -86,7 +86,72 @@ $title = "Job List";
      <link href="css/style.css" rel="stylesheet">
 
 
+     <style>
+     /* Basic styling for the navbar */
+     body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+     }
 
+     .navbar-nav-wrapper {
+          /* background-color: #282828; */
+          padding: 10px 0;
+     }
+
+     .navbar-nav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+     }
+
+     .navbar-nav li {
+          position: relative;
+          display: inline-block;
+     }
+
+     .navbar-nav a {
+          color: white;
+          text-decoration: none;
+          padding: 10px 20px;
+          display: block;
+     }
+
+     .navbar-nav a:hover {
+          background-color: #444;
+          border-radius: 5px;
+     }
+
+     /* Dropdown menu styling */
+     .dropdown {
+          display: none;
+          position: absolute;
+          background-color: #fff;
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+          top: 100%;
+          left: 0;
+          min-width: 200px;
+          z-index: 1;
+     }
+
+     .dropdown a {
+          color: black;
+          padding: 10px 15px;
+          display: block;
+          text-align: left;
+     }
+
+     .dropdown a:hover {
+          background-color: #f1f1f1;
+     }
+
+     /* Show the dropdown when hovering or clicking on the parent */
+     li:hover .dropdown {
+          display: block;
+     }
+     </style>
 </head>
 
 
@@ -111,30 +176,28 @@ $title = "Job List";
                          <div id="navbar" class="navbar-nav-wrapper navbar-arrow">
 
                               <ul class="nav navbar-nav" id="responsive-menu">
-
                                    <li>
-
                                         <a href="./">Home</a>
-
                                    </li>
-
                                    <li>
-                                        <a href="job-list.php">Job List</a>
-
+                                        <a href="#">Categories</a>
+                                        <!-- Dropdown for Categories -->
+                                        <ul class="dropdown">
+                                             <li><a href="job-list.php?cat=ai">AI & Data Science</a></li>
+                                             <li><a href="job-list.php?cat=webdev">Web Development</a></li>
+                                             <li><a href="job-list.php?cat=programming">Programming Languages</a></li>
+                                             <li><a href="job-list.php?cat=devops">DevOps</a></li>
+                                        </ul>
                                    </li>
-
                                    <li>
                                         <a href="employers.php">Employers</a>
                                    </li>
-
                                    <li>
                                         <a href="employees.php">Employees</a>
                                    </li>
-
                                    <li>
                                         <a href="contact.php">Contact Us</a>
                                    </li>
-
                               </ul>
 
                          </div>
