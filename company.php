@@ -215,10 +215,66 @@ li:hover .dropdown {
                                         <a href="#">Categories</a>
                                         <!-- Dropdown for Categories -->
                                         <ul class="dropdown">
-                                             <li><a href="job-list.php?cat=ai">AI & Data Science</a></li>
-                                             <li><a href="job-list.php?cat=webdev">Web Development</a></li>
-                                             <li><a href="job-list.php?cat=programming">Programming Languages</a></li>
-                                             <li><a href="job-list.php?cat=devops">DevOps</a></li>
+                                             <li><a href="job-list.php?cat=bpo">BPO</a>
+                                                  <ul>
+                                                       <li><a href="">Voice & Sales Executive</a></li>
+                                                       <li><a href="">Non-Voice (Chat Support)</a></li>
+                                                       <li><a href="">SME (Subject Matter Expert)</a></li>
+                                                       <li><a href="">Technical Support</a></li>
+                                                       <li><a href="">Backend Support</a></li>
+                                                       <li><a href="">Email Support</a></li>
+                                                       <li><a href="">Blended</a></li>
+                                                       <li><a href="">Team Lead</a></li>
+                                                  </ul>
+                                             </li>
+                                             <li><a href="job-list.php?cat=dev">Development</a>
+                                                  <ul>
+                                                       <li><a href="">Front end Developer</a></li>
+                                                       <li><a href="">Back End Development</a></li>
+                                                       <li><a href="">Full Stack Development</a></li>
+                                                       <li><a href="">Python Development</a></li>
+                                                       <li><a href="">Java Development</a></li>
+                                                       <li><a href="">C & C++ Development</a></li>
+                                                       <li><a href="">Graphic Designer/UI UX</a></li>
+                                                       <li><a href="">Android Development</a></li>
+                                                       <li><a href="">Flutter Development</a></li>
+                                                       <li><a href="">Salesforce Development</a></li>
+                                                       <li><a href="">Software Testing </a></li>
+                                                       <li><a href="">React Js Development</a></li>
+                                                       <li><a href="">Node Js Development</a></li>
+                                                  </ul>
+                                             </li>
+                                             <li><a href="job-list.php?cat=tech">Technology</a>
+                                                  <ul>
+                                                       <li><a href="">MERN</a></li>
+                                                       <li><a href="">MEAN</a></li>
+                                                       <li><a href="">PERN</a></li>
+                                                  </ul>
+                                             </li>
+                                             <li><a href="job-list.php?cat=Acct">Accounting</a>
+                                                  <ul>
+                                                       <li><a href="">Tally ERP</a></li>
+                                                       <li><a href="">Data Entry Operator</a></li>
+                                                       <li><a href="">Cashier</a></li>
+                                                       <li><a href="">Sales Executive for Malls</a></li>
+                                                       <li><a href="">Support Staff for Malls</a></li>
+                                                  </ul>
+                                             </li>
+                                             <li><a href="job-list.php?cat=Medical">Medical</a>
+                                                  <ul>
+                                                       <li><a href="">Nurse</a></li>
+                                                       <li><a href="">Compander</a></li>
+                                                       <li><a href="">Support Staff / Ward Boy</a></li>
+                                                  </ul>
+                                             </li>
+                                             <li><a href="job-list.php?cat=Media_News">Media & News</a>
+                                                  <ul>
+                                                       <li><a href="">Blog Writer</a></li>
+                                                       <li><a href="">Influencer</a></li>
+                                                       <li><a href="">Content Writer</a></li>
+                                                       <li><a href="">Digital Content Creators</a></li>
+                                                  </ul>
+                                             </li>
                                         </ul>
                                    </li>
                                    <li>
