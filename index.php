@@ -143,14 +143,14 @@ include 'constants/check-login.php';
                                         <ul class="dropdown">
                                              <li><a href="job-list.php?cat=bpo">BPO</a>
                                                   <ul>
-                                                       <li><a href="">Voice & Sales Executive</a></li>
-                                                       <li><a href="">Non-Voice (Chat Support)</a></li>
-                                                       <li><a href="">SME (Subject Matter Expert)</a></li>
-                                                       <li><a href="">Technical Support</a></li>
-                                                       <li><a href="">Backend Support</a></li>
-                                                       <li><a href="">Email Support</a></li>
-                                                       <li><a href="">Blended</a></li>
-                                                       <li><a href="">Team Lead</a></li>
+                                                       <li><a href="BPO.php">Voice & Sales Executive</a></li>
+                                                       <li><a href="BPO.php">Non-Voice (Chat Support)</a></li>
+                                                       <li><a href="BPO.php">SME (Subject Matter Expert)</a></li>
+                                                       <li><a href="BPO.php">Technical Support</a></li>
+                                                       <li><a href="BPO.php">Backend Support</a></li>
+                                                       <li><a href="BPO.php">Email Support</a></li>
+                                                       <li><a href="BPO.php">Blended</a></li>
+                                                       <li><a href="BPO.php">Team Lead</a></li>
                                                   </ul>
                                              </li>
                                              <li><a href="job-list.php?cat=dev">Development</a>
