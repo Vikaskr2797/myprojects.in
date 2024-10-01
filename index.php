@@ -128,6 +128,7 @@ body {
 /* Show the dropdown when hovering or clicking on the parent */
 li:hover .dropdown {
      display: block;
+
 }
 </style>
 
@@ -163,7 +164,7 @@ li:hover .dropdown {
                                         <ul class="dropdown">
                                              <li><a href="job-list.php?cat=bpo">BPO</a>
                                                   <ul>
-                                                       <li><a href="">Voice & Sales Executive</a></li>
+                                                       <li><a href="BPO.php">Voice & Sales Executive</a></li>
                                                        <li><a href="">Non-Voice (Chat Support)</a></li>
                                                        <li><a href="">SME (Subject Matter Expert)</a></li>
                                                        <li><a href="">Technical Support</a></li>
@@ -174,7 +175,7 @@ li:hover .dropdown {
                                                   </ul>
                                              </li>
                                              <li><a href="job-list.php?cat=dev">Development</a>
-                                                  <ul>
+                                                  <ul style="max-height: 300px; overflow-y: auto;">
                                                        <li><a href="">Front end Developer</a></li>
                                                        <li><a href="">Back End Development</a></li>
                                                        <li><a href="">Full Stack Development</a></li>
