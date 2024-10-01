@@ -11,7 +11,7 @@ include 'constants/check-login.php';
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <title>Dreamers - Job Portal</title>
+     <title>Dreamers Jobs - Contact Us</title>
      <meta name="description" content="Online Job Management / Job Portal" />
      <meta name="keywords"
           content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
@@ -26,14 +26,12 @@ include 'constants/check-login.php';
      <meta property="og:description" content="Online Job Management / Job Portal" />
 
      <link rel="shortcut icon" href="images/ico/dreamers-logo.png">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
 
      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">
      <link href="css/animate.css" rel="stylesheet">
      <link href="css/main.css" rel="stylesheet">
      <link href="css/component.css" rel="stylesheet">
-
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
      <link rel="stylesheet" href="icons/linearicons/style.css">
      <link rel="stylesheet" href="icons/font-awesome/css/font-awesome.min.css">
      <link rel="stylesheet" href="icons/simple-line-icons/css/simple-line-icons.css">
@@ -47,100 +45,80 @@ include 'constants/check-login.php';
 
      <link href="css/style.css" rel="stylesheet">
 
-     <!-- <script type='text/javascript' src='//pl24279267.cpmrevenuegate.com/69/14/b2/6914b2cb14965bfb4b18357c58eec4ac.js'>
-    </script> -->
+     <style>
+     /* Basic styling for the navbar */
+     body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+     }
+
+     .navbar-nav-wrapper {
+          /* background-color: #282828; */
+          padding: 10px 0;
+     }
+
+     .navbar-nav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+     }
+
+     .navbar-nav li {
+          position: relative;
+          display: inline-block;
+     }
+
+     .navbar-nav a {
+          color: white;
+          text-decoration: none;
+          padding: 10px 20px;
+          display: block;
+     }
+
+     .navbar-nav a:hover {
+          background-color: #444;
+          border-radius: 5px;
+     }
+
+     /* Dropdown menu styling */
+     .dropdown {
+          display: none;
+          position: absolute;
+          background-color: #fff;
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+          top: 100%;
+          left: 0;
+          min-width: 200px;
+          z-index: 1;
+     }
+
+     .dropdown a {
+          color: black;
+          padding: 10px 15px;
+          display: block;
+          text-align: left;
+     }
+
+     .dropdown a:hover {
+          background-color: #f1f1f1;
+     }
+
+     /* Show the dropdown when hovering or clicking on the parent */
+     li:hover .dropdown {
+          display: block;
+     }
+     </style>
 </head>
 
-<style>
-.autofit2 {
-     height: 70px;
-     width: 400px;
-     object-fit: cover;
-}
 
-.autofit3 {
-     height: 80px;
-     width: 100px;
-     object-fit: cover;
-}
-</style>
-<style>
-/* Basic styling for the navbar */
-body {
-     font-family: Arial, sans-serif;
-     margin: 0;
-     padding: 0;
-}
-
-.navbar-nav-wrapper {
-     /* background-color: #282828; */
-     padding: 10px 0;
-}
-
-.navbar-nav {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     display: flex;
-     justify-content: space-around;
-}
-
-.navbar-nav li {
-     position: relative;
-     display: inline-block;
-}
-
-.navbar-nav a {
-     color: white;
-     text-decoration: none;
-     padding: 10px 20px;
-     display: block;
-}
-
-.navbar-nav a:hover {
-     background-color: #444;
-     border-radius: 5px;
-}
-
-/* Dropdown menu styling */
-.dropdown {
-     display: none;
-     position: absolute;
-     background-color: #fff;
-     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-     top: 100%;
-     left: 0;
-     min-width: 200px;
-     z-index: 1;
-}
-
-.dropdown a {
-     color: black;
-     padding: 10px 15px;
-     display: block;
-     text-align: left;
-}
-
-.dropdown a:hover {
-     background-color: #f1f1f1;
-}
-
-/* Show the dropdown when hovering or clicking on the parent */
-li:hover .dropdown {
-     display: block;
-
-}
-</style>
-
-<body class="home">
-
-
-     <div id="introLoader" class="introLoading"></div>
+<body class="not-transparent-header">
 
      <div class="container-wrapper">
 
           <header id="header">
-
                <nav class="navbar navbar-default navbar-fixed-top navbar-sticky-function">
 
                     <div class="container-fluid">
@@ -161,10 +139,11 @@ li:hover .dropdown {
                                    <li>
                                         <a href="#">Categories</a>
                                         <!-- Dropdown for Categories -->
+                                        <!-- Dropdown for Categories -->
                                         <ul class="dropdown">
                                              <li><a href="job-list.php?cat=bpo">BPO</a>
                                                   <ul>
-                                                       <li><a href="BPO.php">Voice & Sales Executive</a></li>
+                                                       <li><a href="">Voice & Sales Executive</a></li>
                                                        <li><a href="">Non-Voice (Chat Support)</a></li>
                                                        <li><a href="">SME (Subject Matter Expert)</a></li>
                                                        <li><a href="">Technical Support</a></li>
@@ -175,7 +154,7 @@ li:hover .dropdown {
                                                   </ul>
                                              </li>
                                              <li><a href="job-list.php?cat=dev">Development</a>
-                                                  <ul style="max-height: 300px; overflow-y: auto;">
+                                                  <ul>
                                                        <li><a href="">Front end Developer</a></li>
                                                        <li><a href="">Back End Development</a></li>
                                                        <li><a href="">Full Stack Development</a></li>
@@ -234,23 +213,22 @@ li:hover .dropdown {
                                         <a href="contact.php">Contact Us</a>
                                    </li>
                               </ul>
-
                          </div>
 
                          <div class="nav-mini-wrapper">
                               <ul class="nav-mini sign-in">
                                    <?php
-    if ($user_online == true) {
-    print '
-        <li><a href="logout.php">logout</a></li>
-        <li><a href="'.$myrole.'">Profile</a></li>';
-    }else{
-    print '
-        <li><a href="login.php">login</a></li>
-        <li><a data-toggle="modal" href="#registerModal">register</a></li>';						
-    }
-    
-    ?>
+						if ($user_online == true) {
+						print '
+						    <li><a href="logout.php">logout</a></li>
+							<li><a href="'.$myrole.'">Profile</a></li>';
+						}else{
+						print '
+							<li><a href="login.php">login</a></li>
+							<li><a data-toggle="modal" href="#registerModal">register</a></li>';						
+						}
+						
+						?>
 
                               </ul>
                          </div>
@@ -260,7 +238,6 @@ li:hover .dropdown {
                     <div id="slicknav-mobile"></div>
 
                </nav>
-
 
                <div id="registerModal" class="modal fade login-box-wrapper" tabindex="-1" style="display: none;"
                     data-backdrop="static" data-keyboard="false" data-replace="true">
